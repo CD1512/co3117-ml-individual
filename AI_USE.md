@@ -33,3 +33,15 @@ Required fields per entry (assignment §12.5):
 | Closed-book reproduction | Not yet — retrieve gini + gain formula without notes within 72h |
 
 _Repo onboarding (skeleton) is infrastructure, not a Depth-A first attempt._
+
+| Field | Entry |
+| :---- | :---- |
+| Week/date | W05 / 2026-09-28 |
+| Learning question | After the handwritten W01–W04 PDF, what was missing or imprecise, and which course sources confirm the correction? |
+| Pre-AI evidence | `exercises/release-baseline-w01-w04.pdf` (commit `4ab63ec`) |
+| AI tool | Cursor agent |
+| Prompt purpose | Check first attempt vs §7.1; structure Markdown corrections with citations (not a new first attempt) |
+| Hint/question received | Per-item: what the PDF said, gap, correction, source; do not edit the PDF |
+| Verification source | Mitchell Ch. 1/3; Müller & Guido Ch. 2/4/5; NPTEL Weeks 0–1, 6, 7; assignment §2, §7.1, §9 |
+| What changed | Wrote `exercises/w01-w04-corrections.md` to match the PDF (not a longer typed draft) |
+| Closed-book reproduction | Not yet — retrieve leakage rule + weighted information-gain formula without notes |
