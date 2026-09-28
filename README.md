@@ -13,11 +13,9 @@ Individual learning portfolio for **CO3117 Machine Learning** (HK261): one datas
 
 Keep the **dataset source/version**, **prediction target**, **decision context**, and **held-out test population** fixed for the whole semester. Change the model or representation—not the problem.
 
-## Use-case draft (freeze at R0)
+## Use case (frozen at R0, tag `release-baseline`)
 
-> This section is a **draft** until catch-up + protocol freeze and tag `release-baseline` (before Course Week 6). Do not treat seeds/paths below as final until R0.
-
-| Field | Draft decision |
+| Field | Frozen decision |
 | :---- | :---- |
 | Dataset | UCI Human Activity Recognition Using Smartphones |
 | Source | https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones |
@@ -29,7 +27,9 @@ Keep the **dataset source/version**, **prediction target**, **decision context**
 | Validation | Tune on validation or CV **inside** the training population only; final test population sealed |
 | Preprocessing | Fit scalers/encoders on **training data only**, then transform val/test |
 | Baseline | Majority-class (and/or a simple linear baseline) kept all semester |
-| Random seeds | Draft: `SEED = 42` (confirm and pin in `src/data.py` at R0) |
+| Random seeds | `SEED = 42` (pinned in `src/data.py`) |
+
+This Git tree is a submission-shaped replay of R0 artifacts. Commit timestamps are the replay date (28 Sep 2026), not back-dated. The handwritten diagnostic PDF itself is dated 25/09/2026. An earlier working copy with the original 24–26 Sep history is kept as a local archive, not as the submission tree.
 
 ## Repository layout
 
@@ -61,10 +61,11 @@ pip install -r requirements.txt
 5. BENCHMARK → same split/preprocess as trusted library  
 6. EXPLAIN → weekly post, MODEL_LOG, exam sheet, tag  
 
-## Current status (2026-09-24)
+## Current status (R0 freeze)
 
-- [x] Repository skeleton + control files  
-- [ ] Dataset download + `data.py` protocol freeze  
-- [ ] W01–W04 catch-up + release diagnostic  
-- [ ] Tag `release-baseline`  
-- [ ] Perceptron first attempt (end of W05)  
+- [x] Repository skeleton + control files
+- [x] Release diagnostic handwritten scan (`exercises/release-baseline-w01-w04.pdf`)
+- [x] UCI HAR download + subject-aware `data.py` + majority baseline
+- [x] Decision Tree catch-up + `docs/pre-release/PRE_RELEASE_CATCHUP.md`
+- [x] Tag `release-baseline`
+- [ ] Perceptron first attempt (end of W05)

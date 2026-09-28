@@ -12,7 +12,7 @@ Cite every source actually used. Do not list unread material.
 
 4. UCI Machine Learning Repository — Human Activity Recognition Using Smartphones  
    https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones  
-   _(draft use case; exact version pin at R0 freeze)_
+   _(version pin: SHA256 in `data/README.md`; frozen at tag `release-baseline`)_
 
 ## Code repositories (read after first attempt)
 
