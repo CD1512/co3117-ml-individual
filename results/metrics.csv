@@ -1,2 +1,2 @@
 ﻿week,model,split,macro_f1,accuracy,notes
-
+W05,majority_baseline,test,0.053306,0.190361,"seed=42; subjects_test=[9, 10, 16, 18, 24, 28]"
