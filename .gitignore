@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: keep README and small manifests; ignore raw/large downloads
+data/raw/
+data/processed/
+*.zip
+*.rar
+UCI HAR Dataset/
+UCI_HAR_Dataset/
+
+# Experiment outputs that can be regenerated (keep metrics.csv structure if committed intentionally)
+results/figures/*.png
+!results/figures/.gitkeep
+
+# Local secrets / OS junk
+*.log
