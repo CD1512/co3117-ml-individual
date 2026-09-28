@@ -1,10 +1,10 @@
-﻿"""
+"""
 Dataset loading and experimental protocol for UCI HAR.
 
 Protocol (frozen at tag `release-baseline`, 26 Sep 2026):
 - Dataset: UCI Human Activity Recognition Using Smartphones
 - Target: activity class (1..6)
-- Split: subject-aware â€” no subject ID appears in more than one of train/val/test
+- Split: subject-aware — no subject ID appears in more than one of train/val/test
 - Primary metric: macro_f1
 - Seed: 42
 - Preprocess: StandardScaler fit on train only

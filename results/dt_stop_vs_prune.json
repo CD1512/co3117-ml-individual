@@ -1,0 +1,23 @@
+[
+  {
+    "model": "dt_unconstrained",
+    "macro_f1": 0.800317399111918,
+    "accuracy": 0.8057831325301205,
+    "n_leaves": 143,
+    "depth": 18
+  },
+  {
+    "model": "dt_preprune_max_depth_6",
+    "macro_f1": 0.8096423116417366,
+    "accuracy": 0.8134939759036145,
+    "n_leaves": 23,
+    "depth": 6
+  },
+  {
+    "model": "dt_postprune_ccp_alpha",
+    "macro_f1": 0.8055761131464642,
+    "accuracy": 0.8096385542168675,
+    "n_leaves": 26,
+    "depth": 9
+  }
+]

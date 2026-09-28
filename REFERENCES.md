@@ -37,3 +37,5 @@ Cite every source actually used. Do not list unread material.
 | Date | Source | What was used for |
 | :---- | :---- | :---- |
 | 2026-09-24 | Assignment spec + UCI HAR page (URL only) | Repo skeleton and use-case draft |
+| 2026-09-25 | UCI HAR archive (SHA256 `2045E435…BFEB0`) | Download, subject-aware split, majority baseline |
+| 2026-09-26 | ML-From-Scratch `decision_tree.py` + `calculate_entropy` / `divide_on_feature` | After first-attempt commit `53a67d5`; mapping + pre-prune knobs |

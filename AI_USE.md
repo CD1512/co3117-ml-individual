@@ -20,4 +20,16 @@ Required fields per entry (assignment §12.5):
 
 ## Entries
 
-_No AI use recorded yet (W05 baseline setup, 2026-09-24)._
+| Field | Entry |
+| :---- | :---- |
+| Week/date | W05 / 2026-09-26 |
+| Learning question | After own gini/split, what does ML-From-Scratch do differently, and what is a non-copy modification? |
+| Pre-AI evidence | commit `53a67d5` `src/from_scratch/impurity_split_first_attempt.py` |
+| AI tool | Cursor agent |
+| Prompt purpose | Dissect reference + add pre-prune knobs; not a first-attempt rewrite |
+| Hint/question received | Map impurity / gain / recurse to file:line; keep midpoints; add min_samples/min_gain |
+| Verification source | ML-From-Scratch `decision_tree.py` `_build_tree`, `_calculate_information_gain`; `calculate_entropy`; `divide_on_feature` |
+| What changed | New file `impurity_split_after_reference.py`; mapping recorded in MODEL_LOG (Decision Tree section); sklearn stop vs prune experiment |
+| Closed-book reproduction | Not yet — retrieve gini + gain formula without notes within 72h |
+
+_Repo onboarding (skeleton) is infrastructure, not a Depth-A first attempt._
