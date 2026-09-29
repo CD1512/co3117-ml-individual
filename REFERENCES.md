@@ -40,3 +40,4 @@ Cite every source actually used. Do not list unread material.
 | 2026-09-25 | UCI HAR archive (SHA256 `2045E435…BFEB0`) | Download, subject-aware split, majority baseline |
 | 2026-09-26 | ML-From-Scratch `decision_tree.py` + `calculate_entropy` / `divide_on_feature` | After first-attempt commit `53a67d5`; mapping + pre-prune knobs |
 | 2026-09-28 | Mitchell Ch. 1/3; Müller & Guido Ch. 2/4/5; NPTEL Weeks 0–1, 6, 7; assignment §2, §7.1, §9 | `exercises/w01-w04-corrections.md` after PDF first attempt |
+| 2026-09-28 | Mitchell Ch. 4 §4.4.1–§4.4.3; NPTEL Week 4 perceptron | `exercises/w05-corrections.md` + `perceptron_after_check.py` after commit `9660873` |

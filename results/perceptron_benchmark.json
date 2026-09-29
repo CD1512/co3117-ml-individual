@@ -1,0 +1,66 @@
+{
+  "week": "W05",
+  "split": "test",
+  "seed": 42,
+  "eta": 0.1,
+  "epochs": 10,
+  "confusion_matrix_note": "rows = true label, columns = predicted label; class order 1..6",
+  "class_labels": {
+    "1": "WALKING",
+    "2": "WALKING_UPSTAIRS",
+    "3": "WALKING_DOWNSTAIRS",
+    "4": "SITTING",
+    "5": "STANDING",
+    "6": "LAYING"
+  },
+  "rows": [
+    {
+      "model": "perceptron_ovr",
+      "macro_f1": 0.8361533935314879,
+      "accuracy": 0.8226506024096386,
+      "runtime_seconds": 0.5688672000542283,
+      "confusion_matrix": {
+        "labels": [
+          "WALKING",
+          "WALKING_UPSTAIRS",
+          "WALKING_DOWNSTAIRS",
+          "SITTING",
+          "STANDING",
+          "LAYING"
+        ],
+        "matrix": [
+          [323, 0, 0, 1, 0, 0],
+          [45, 241, 2, 27, 0, 0],
+          [4, 8, 271, 0, 0, 0],
+          [0, 1, 0, 258, 111, 0],
+          [0, 0, 0, 55, 333, 0],
+          [0, 0, 0, 1, 113, 281]
+        ]
+      }
+    },
+    {
+      "model": "sklearn_perceptron",
+      "macro_f1": 0.8622974776731728,
+      "accuracy": 0.8544578313253012,
+      "runtime_seconds": 0.25803339947015047,
+      "confusion_matrix": {
+        "labels": [
+          "WALKING",
+          "WALKING_UPSTAIRS",
+          "WALKING_DOWNSTAIRS",
+          "SITTING",
+          "STANDING",
+          "LAYING"
+        ],
+        "matrix": [
+          [323, 0, 0, 1, 0, 0],
+          [45, 241, 2, 27, 0, 0],
+          [4, 7, 271, 0, 1, 0],
+          [0, 2, 0, 317, 51, 0],
+          [0, 4, 0, 104, 280, 0],
+          [0, 1, 0, 1, 52, 341]
+        ]
+      }
+    }
+  ]
+}
