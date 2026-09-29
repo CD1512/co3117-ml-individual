@@ -61,11 +61,13 @@ pip install -r requirements.txt
 5. BENCHMARK → same split/preprocess as trusted library  
 6. EXPLAIN → weekly post, MODEL_LOG, exam sheet, tag  
 
-## Current status (R0 freeze)
+## Current status (after W05 Perceptron)
 
 - [x] Repository skeleton + control files
 - [x] Release diagnostic handwritten scan (`exercises/release-baseline-w01-w04.pdf`)
 - [x] UCI HAR download + subject-aware `data.py` + majority baseline
 - [x] Decision Tree catch-up + `docs/pre-release/PRE_RELEASE_CATCHUP.md`
 - [x] Tag `release-baseline`
-- [ ] Perceptron first attempt (end of W05)
+- [x] Perceptron first attempt + OvR benchmark + weekly post (`docs/weekly/w05-perceptron-delta.md`)
+- [x] Tag `w05`
+- [ ] MLP / backpropagation (W06)

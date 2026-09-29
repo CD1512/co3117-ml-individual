@@ -12,7 +12,7 @@ Part I portfolio index. Instructor should verify progress via [PROGRESS.md](PROG
 | Release baseline diagnostic | `exercises/release-baseline-w01-w04.pdf` (`4ab63ec`) | [x] |
 | Decision Tree catch-up (Depth B) | `impurity_split_first_attempt.py` (`53a67d5`) then `impurity_split_after_reference.py` + stop/prune (`490e7b4`); mapping in MODEL_LOG + post C | [x] |
 | Tag `release-baseline` | Git tag on the catch-up freeze commit | [x] |
-| W05 Perceptron + post + drill + `w05` | links TBD | [ ] |
+| W05 Perceptron + post + drill + `w05` | post `docs/weekly/w05-perceptron-delta.md`; drill `exercises/w05-first-attempt.pdf` + `w05-corrections.md`; first attempt `9660873`; review `ab30fea` (OvR + `results/perceptron_benchmark.json`); tag `w05` | [x] |
 | W06 MLP + grad check + `w06` | links TBD | [ ] |
 | W07 Naive Bayes + GA + `w07` | links TBD | [ ] |
 | BN/TAN Part I theory | notes + post | [ ] |
@@ -29,6 +29,7 @@ python -m venv .venv
 pip install -r requirements.txt
 python experiments/part1_pre_midterm/run_majority_baseline.py
 python experiments/part1_pre_midterm/run_dt_stop_vs_prune.py
+python experiments/part1_pre_midterm/run_perceptron_benchmark.py
 ```
 
 Requires a local copy of UCI HAR under `data/raw/` (gitignored). See `data/README.md`.

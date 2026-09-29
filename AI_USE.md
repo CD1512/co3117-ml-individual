@@ -91,5 +91,5 @@ _Repo onboarding (skeleton) is infrastructure, not a Depth-A first attempt._
 | Prompt purpose | Presentation / dashboard fill from existing results (not new model code) |
 | Hint/question received | Replace MODEL_LOG TBD with sealed-test Macro-F1/accuracy; link post/PDF/corrections in PROGRESS and SUBMISSION_PART1; leave tag `w05` pending until review+theory commits |
 | Verification source | assignment §5 PROGRESS / §9.1 MODEL_LOG / §10 checklist; numbers from `perceptron_benchmark.json` |
-| What changed | Filled Perceptron metrics and experiment pointers in `MODEL_LOG.md`; marked W05 links in `PROGRESS.md`, `SUBMISSION_PART1.md`, `docs/index.md`, `docs/weekly/README.md`, `README.md`. Tag `w05` not created yet |
+| What changed | Filled Perceptron metrics and experiment pointers in `MODEL_LOG.md`; marked W05 links in `PROGRESS.md`, `SUBMISSION_PART1.md`, `docs/index.md`, `docs/weekly/README.md`, `README.md`. Tag `w05` applied on the weekly-post freeze commit |
 | Closed-book reproduction | Yes for the two Macro-F1 numbers (0.836 vs 0.862) — can state without opening the JSON |
